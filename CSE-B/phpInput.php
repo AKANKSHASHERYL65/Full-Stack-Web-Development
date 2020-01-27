@@ -6,6 +6,7 @@ echo $_POST['id'];
 echo $_POST['username'];
 echo $_POST['age'];
 echo $_POST['contact'];
+echo $_POST['email'];
 
 }
 
@@ -23,6 +24,7 @@ echo $_POST['contact'];
    		Name: <input type="text" name="username" placeholder="enter name"><br>
    		Age: <input type="text" name="age" placeholder="enter age"><br>
    		Contact: <input type="text" name="contact" placeholder="enter contact"><br>
+   		Email: <input type="text" name="email" placeholder="enter email"><br>
    	    <input value="submit" name="btn" type="submit">
         
     </form>
