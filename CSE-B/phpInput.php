@@ -1,6 +1,7 @@
 <?php
-if isset($_POST['btn']){
+if (isset($_POST['btn'])){
 
+echo "your details are";
 echo $_POST['id'];
 echo $_POST['username'];
 echo $_POST['age'];
@@ -22,6 +23,7 @@ echo $_POST['contact'];
    		Name: <input type="text" name="username" placeholder="enter name"><br>
    		Age: <input type="text" name="age" placeholder="enter age"><br>
    		Contact: <input type="text" name="contact" placeholder="enter contact"><br>
+   	    <input value="submit" name="btn" type="submit">
         
     </form>
     </body>
