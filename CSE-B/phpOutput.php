@@ -19,11 +19,11 @@ echo '<table border="0" cellspacing="2" cellpadding="2">
  
 if ($result = $mysqli->query($query)) {
     while ($row = $result->fetch_assoc()) {
-        $field1name = $row["col1"];
-        $field2name = $row["col2"];
-        $field3name = $row["col3"];
-        $field4name = $row["col4"];
-        $field5name = $row["col5"]; 
+        $field1name = $row["id"];
+        $field2name = $row["name"];
+        $field3name = $row["age"];
+        $field4name = $row["contact"];
+        $field5name = $row["email"]; 
  
         echo '<tr> 
                   <td>'.$field1name.'</td> 
